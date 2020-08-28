@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": "ghost-whey-x",
+      "name": "Gold Standard - 100% Whey",
+      "details": "100% Whey Gold Standard é um alimento protéico indicado para quem realiza exercícios, atividades físicas ou dietas com o objetivo de ganhar massa muscular magra.",
+      "price": "$39.99",
+      "image": "https://www.searchpng.com/wp-content/uploads/2019/12/Whey-Protein-Supplements-PNG-Image.jpg"
+    },
+    {
+      "id": "ghost-whey-vegan",
+      "name": "Amino HD Fusion - Atlhetica Nutrition",
+      "details": "AMINO HD FUSION da Atlhetica Nutrition é uma combinação exclusiva de aminoácidos e cafeína que pode ser usado antes e/ou durante o treino ou em qualquer momento do dia que se deseje ter mais energia e foco.",
+      "price": "$26.99",
+      "image": "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/24/55/24557835_amino-hd-fusion-atlhetica-nutrition-20192_s4_636869624502603558.png"
+    }
+  ],
+  "profile": {
+    "name": "isaqueigor"
+  }
+}
