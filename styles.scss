@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 30px;
   }
   .title {
     position: relative;
@@ -93,7 +94,6 @@ body {
       justify-content: center;
 
       img {
-        cursor: move;
         width: 500px;
       }
     }
@@ -106,14 +106,12 @@ body {
       justify-content: center;
       .inner {
         width: 480px;
-        position: relative;
         .go-back {
           cursor: pointer;
           color: #282828;
           text-decoration: none;
           text-align: left;
-          position: absolute;
-          top: -124px;
+          padding-bottom: 40px;
           left: 0;
         }
         .category {

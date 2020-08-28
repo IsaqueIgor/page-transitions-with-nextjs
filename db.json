@@ -3,15 +3,17 @@
     {
       "id": "ghost-whey-x",
       "name": "Gold Standard - 100% Whey",
-      "details": "100% Whey Gold Standard é um alimento protéico indicado para quem realiza exercícios, atividades físicas ou dietas com o objetivo de ganhar massa muscular magra.",
-      "price": "$39.99",
-      "image": "https://www.searchpng.com/wp-content/uploads/2019/12/Whey-Protein-Supplements-PNG-Image.jpg"
+      "details": "Whey Protein Isolates (WPI) are the purest form of whey protein that currently exists. WPIs are costly to use, but rate among the best proteins that money can buy.",
+      "price": 59.99,
+      "protein": "24",
+      "image": "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/05/67/0567_whey-gold-100-optimum-nutrition-213_s4_636715950440177970.png"
     },
     {
       "id": "ghost-whey-vegan",
       "name": "Amino HD Fusion - Atlhetica Nutrition",
       "details": "AMINO HD FUSION da Atlhetica Nutrition é uma combinação exclusiva de aminoácidos e cafeína que pode ser usado antes e/ou durante o treino ou em qualquer momento do dia que se deseje ter mais energia e foco.",
-      "price": "$26.99",
+      "price": 26.99,
+      "protein": "18",
       "image": "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/24/55/24557835_amino-hd-fusion-atlhetica-nutrition-20192_s4_636869624502603558.png"
     }
   ],
