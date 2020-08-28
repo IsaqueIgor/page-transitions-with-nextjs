@@ -31,17 +31,24 @@ const fadeInUp = {
 };
 
 const Product = (props) => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
   const [price, setPrice] = useState(props.product.price);
 
   const handleIncrement = () => {
     setCount((prevCount) => prevCount + 1);
-    setPrice((prevPrice) => prevPrice + price);
+    setPrice((prevPrice) => {
+      if (count < 0) return 0;
+      else return prevPrice + props.product.price;
+    });
   };
 
   const handleDecrement = () => {
     setCount((prevCount) => prevCount - 1);
-    setPrice((prevPrice) => prevPrice - price);
+    setPrice((prevPrice) => {
+      let newPrive = (prevPrice - props.product.price).toFixed(2);
+      if (newPrive <= 0) return 0;
+      else return newPrive;
+    });
   };
 
   return (
